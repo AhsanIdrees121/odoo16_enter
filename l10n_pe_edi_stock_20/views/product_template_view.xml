@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<odoo>
+    <record model="ir.ui.view" id="view_prod_form_inh_l10n_mx">
+        <field name="name">view.prod.form.inh.l10n.mx</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product_unspsc.product_template_unspsc"/>
+        <field name="arch" type="xml">
+            <field name="unspsc_code_id" position="after">
+                <field name="l10n_pe_edi_tariff_fraction"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>

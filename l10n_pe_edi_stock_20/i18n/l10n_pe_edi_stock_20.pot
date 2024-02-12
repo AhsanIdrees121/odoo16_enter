@@ -1,0 +1,436 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_edi_stock_20
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-22 09:40+0000\n"
+"PO-Revision-Date: 2022-12-22 09:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.res_config_settings_form_inherit_l10n_pe_edi
+msgid "<span class=\"o_form_label mt16\">Sunat Delivery Guide API</span>"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.l10n_pe_edi_guiaremision_report_delivery_document
+msgid "<strong>Issuing entity of the special authorization:</strong>"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.l10n_pe_edi_guiaremision_report_delivery_document
+msgid "<strong>Related Documents:</strong>"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.l10n_pe_edi_guiaremision_report_delivery_document
+msgid "<strong>Special authorization number:</strong>"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.l10n_pe_edi_guiaremision_report_delivery_document
+msgid "<strong>Transfer indicator in M1 or L category vehicles:</strong>"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid ""
+"A delivery guide with this number is already registered with SUNAT. Click on"
+" 'Retry' to try sending with a new number."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__2207200010
+msgid "Alcohol fuel"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_l10n_pe_edi_vehicle__authorization_issuing_entity
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_partner__l10n_pe_edi_authorization_issuing_entity
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_users__l10n_pe_edi_authorization_issuing_entity
+msgid "Authorization Issuing Entity"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_l10n_pe_edi_vehicle__authorization_issuing_entity_number
+msgid "Authorization Issuing Entity Number"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_partner__l10n_pe_edi_authorization_number
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_users__l10n_pe_edi_authorization_number
+msgid "Authorization Number"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.l10n_pe_edi_guiaremision_report_delivery_document
+msgid "Barcode"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__1006400000
+msgid "Broken rice"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__1703100000
+msgid "Cane Molasses"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__1701130000
+msgid "Cane sugar"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_company__l10n_pe_edi_stock_client_id
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_config_settings__l10n_pe_edi_stock_client_id
+msgid "Client ID"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_res_company__l10n_pe_edi_stock_client_id
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_res_config_settings__l10n_pe_edi_stock_client_id
+msgid "Client ID assigned for the SUNAT delivery guide API."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_company__l10n_pe_edi_stock_client_secret
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_config_settings__l10n_pe_edi_stock_client_secret
+msgid "Client Secret"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_res_company__l10n_pe_edi_stock_client_secret
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_res_config_settings__l10n_pe_edi_stock_client_secret
+msgid "Client Secret assigned for the SUNAT delivery guide API."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model,name:l10n_pe_edi_stock_20.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model,name:l10n_pe_edi_stock_20.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.res_config_settings_form_inherit_l10n_pe_edi
+msgid ""
+"Configure SUNAT API credentials for delivery guide. Please be aware that\n"
+"                            the test environment is not supported for delivery guide."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model,name:l10n_pe_edi_stock_20.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid "Could not decode the response received from SUNAT."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid "Could not decompress the ZIP file received from SUNAT."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid "Could not identify content in the response retrieved from SUNAT."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid "Details:"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_company__l10n_pe_edi_stock_client_password
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_config_settings__l10n_pe_edi_stock_client_password
+msgid "Guide SOL Password"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_company__l10n_pe_edi_stock_client_username
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_config_settings__l10n_pe_edi_stock_client_username
+msgid "Guide SOL User"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__1006200000
+msgid "Husked rice (cargo rice or brown rice)"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_l10n_pe_edi_vehicle__is_m1l
+msgid "Is M1 or L?"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_product_product__l10n_pe_edi_tariff_fraction
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_product_template__l10n_pe_edi_tariff_fraction
+msgid ""
+"It is used to express the key of the tariff fraction corresponding to the "
+"description of the product."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_company__l10n_pe_edi_stock_token
+msgid "L10N Pe Edi Stock Token"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_partner__l10n_pe_edi_mtc_number
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_users__l10n_pe_edi_mtc_number
+msgid "MTC Registration Number"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__l10n_pe_edi_vehicle__authorization_issuing_entity__11
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__res_partner__l10n_pe_edi_authorization_issuing_entity__11
+msgid "Ministry of Health"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__l10n_pe_edi_vehicle__authorization_issuing_entity__07
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__res_partner__l10n_pe_edi_authorization_issuing_entity__07
+msgid "Ministry of Production"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__l10n_pe_edi_vehicle__authorization_issuing_entity__06
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__res_partner__l10n_pe_edi_authorization_issuing_entity__06
+msgid "Ministry of Transport and Communications"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__l10n_pe_edi_vehicle__authorization_issuing_entity__08
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__res_partner__l10n_pe_edi_authorization_issuing_entity__08
+msgid "Ministry of the Environment"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_l10n_pe_edi_vehicle__is_m1l
+msgid ""
+"Motor vehicles with less than four wheels and motor vehicles for "
+"transporting passengers with no more than 8 seats."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__l10n_pe_edi_vehicle__authorization_issuing_entity__10
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__res_partner__l10n_pe_edi_authorization_issuing_entity__10
+msgid "Municipality of Lima"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__l10n_pe_edi_vehicle__authorization_issuing_entity__09
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__res_partner__l10n_pe_edi_authorization_issuing_entity__09
+msgid "National Agency for Fisheries Health"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__l10n_pe_edi_vehicle__authorization_issuing_entity__04
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__res_partner__l10n_pe_edi_authorization_issuing_entity__04
+msgid "National Agrarian Health Service"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__l10n_pe_edi_vehicle__authorization_issuing_entity__05
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__res_partner__l10n_pe_edi_authorization_issuing_entity__05
+msgid "National Forest and Wildlife Service"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__l10n_pe_edi_vehicle__authorization_issuing_entity__01
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__res_partner__l10n_pe_edi_authorization_issuing_entity__01
+msgid ""
+"National Superintendency for the Control of Security Services, Weapons, "
+"Ammunition and Explosives for Civil Use"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.l10n_pe_edi_guiaremision_report_delivery_document
+msgid "No"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid "No Client ID found for company %s."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__2302200000
+msgid "Not applicable"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_partner__l10n_pe_edi_operator_license
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_res_users__l10n_pe_edi_operator_license
+msgid "Operator License"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__1701140000
+msgid "Other cane sugars"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__2207200090
+msgid "Others (Alcohol)"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__1701999000
+msgid "Others (Sugar)"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model,name:l10n_pe_edi_stock_20.model_l10n_pe_edi_vehicle
+msgid "PE EDI Vehicle"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_res_company__l10n_pe_edi_stock_client_password
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_res_config_settings__l10n_pe_edi_stock_client_password
+msgid "Password assigned for the SUNAT delivery guide API."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.pe_partner_operator_form
+msgid "Peru"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model,name:l10n_pe_edi_stock_20.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__l10n_pe_edi_vehicle__authorization_issuing_entity__12
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__res_partner__l10n_pe_edi_authorization_issuing_entity__12
+msgid "Regional government"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_stock_picking__l10n_pe_edi_document_number
+msgid "Related Document Number"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_stock_picking__l10n_pe_edi_related_document_type
+msgid "Related Document Type"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.view_picking_edi_form
+msgid "Related Documents"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid "SUNAT returned an error code."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_stock_picking__l10n_pe_edi_ticket_number
+msgid "Saves the folio asigned to when post the EDI document"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__1006300000
+msgid "Semi-milled or milled rice, including pearled or glazed"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_product_product__l10n_pe_edi_tariff_fraction
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_product_template__l10n_pe_edi_tariff_fraction
+msgid "Tariff Fraction (PE)"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid "The company's ID type must be set to RUC on the company contact page."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid ""
+"The delivery guide is being processed by SUNAT. Click on 'Retry' to refresh "
+"the state."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid "There was an error communicating with the SUNAT service."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,field_description:l10n_pe_edi_stock_20.field_stock_picking__l10n_pe_edi_ticket_number
+msgid "Ticket Number"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model,name:l10n_pe_edi_stock_20.model_stock_picking
+msgid "Transfer"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__2207100000
+msgid ""
+"Undenatured ethyl alcohol with an alcoholic strength by volume of at least "
+"80% vol"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__2208901000
+msgid ""
+"Undenatured ethyl alcohol with an alcoholic strength by volume of less than "
+"80% vol"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_res_company__l10n_pe_edi_stock_client_username
+#: model:ir.model.fields,help:l10n_pe_edi_stock_20.field_res_config_settings__l10n_pe_edi_stock_client_username
+msgid "Username assigned for the SUNAT delivery guide API."
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model:ir.model.fields.selection,name:l10n_pe_edi_stock_20.selection__product_template__l10n_pe_edi_tariff_fraction__1701910000
+msgid "With added flavoring or coloring"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_stock_20.l10n_pe_edi_guiaremision_report_delivery_document
+msgid "Yes"
+msgstr ""
+
+#. module: l10n_pe_edi_stock_20
+#: code:addons/l10n_pe_edi_stock_20/models/stock_picking.py:0
+#, python-format
+msgid "You must choose the transfer operator."
+msgstr ""

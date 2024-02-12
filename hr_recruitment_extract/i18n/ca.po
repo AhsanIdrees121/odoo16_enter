@@ -1,0 +1,300 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_recruitment_extract
+# 
+# Translators:
+# Manel Fernandez Ramirez <manelfera@outlook.com>, 2022
+# Martin Trigaux, 2022
+# RGB Consulting <odoo@rgbconsulting.com>, 2022
+# marcescu, 2022
+# CristianCruzParra, 2022
+# Ivan Espinola, 2022
+# Josep Anton Belchi, 2022
+# Farouk Jabiri, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-15 13:29+0000\n"
+"PO-Revision-Date: 2022-09-22 05:47+0000\n"
+"Last-Translator: Farouk Jabiri, 2022\n"
+"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: hr_recruitment_extract
+#. odoo-python
+#: code:addons/hr_recruitment_extract/models/hr_applicant.py:0
+#, python-format
+msgid "%s's Application"
+msgstr "Aplicació de %s"
+
+#. module: hr_recruitment_extract
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_extract.hr_recruitment_extract_view_form
+msgid ""
+"<i class=\"fa fa-fw o_button_icon fa-arrow-right\"/>\n"
+"                        Buy credits"
+msgstr ""
+"<i class=\"fa fa-fw o_button_icon fa-arrow-right\"/>\n"
+"                        Compra crèdits"
+
+#. module: hr_recruitment_extract
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_extract.hr_recruitment_extract_view_form
+msgid ""
+"<i class=\"fa fa-fw o_button_icon fa-arrow-right\"/>\n"
+"                        Refresh"
+msgstr ""
+"<i class=\"fa fa-fw o_button_icon fa-arrow-right\"/>\n"
+"                        Refresca"
+
+#. module: hr_recruitment_extract
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_extract.hr_recruitment_extract_view_form
+msgid ""
+"<i class=\"fa fa-fw o_button_icon fa-arrow-right\"/>\n"
+"                        Resend For Digitization"
+msgstr ""
+"<i class=\"fa fa-fw o_button_icon fa-arrow-right\"/>\n"
+"                        Torna a enviar per a la digitalització"
+
+#. module: hr_recruitment_extract
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_extract.hr_recruitment_extract_view_form
+msgid ""
+"All fields will be automated by Artificial Intelligence, it might take 5 "
+"seconds."
+msgstr ""
+"Tots els camps seran automatitzats per intel·ligència artificial. Podria "
+"trigar 5 segons. "
+
+#. module: hr_recruitment_extract
+#. odoo-python
+#: code:addons/hr_recruitment_extract/models/hr_applicant.py:0
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__hr_applicant__extract_state__error_status
+#, python-format
+msgid "An error occurred"
+msgstr "S'ha produït un error"
+
+#. module: hr_recruitment_extract
+#: model:ir.model,name:hr_recruitment_extract.model_hr_applicant
+msgid "Applicant"
+msgstr "Candidat"
+
+#. module: hr_recruitment_extract
+#: model:ir.model,name:hr_recruitment_extract.model_ir_attachment
+msgid "Attachment"
+msgstr "Adjunt"
+
+#. module: hr_recruitment_extract
+#. odoo-python
+#: code:addons/hr_recruitment_extract/models/hr_applicant.py:0
+#, python-format
+msgid "CV is being Digitized"
+msgstr "El CV s'està digitalitzant"
+
+#. module: hr_recruitment_extract
+#: model:ir.model,name:hr_recruitment_extract.model_res_company
+msgid "Companies"
+msgstr "Empreses"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__hr_applicant__extract_state__done
+msgid "Completed flow"
+msgstr "Flux completat"
+
+#. module: hr_recruitment_extract
+#: model:ir.model,name:hr_recruitment_extract.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustos de configuració"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__res_company__recruitment_extract_show_ocr_option_selection__auto_send
+msgid "Digitize automatically"
+msgstr "Digita automàticament"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__res_company__recruitment_extract_show_ocr_option_selection__manual_send
+msgid "Digitize on demand only"
+msgstr "Digita només sota demanda"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__res_company__recruitment_extract_show_ocr_option_selection__no_send
+msgid "Do not digitize"
+msgstr "No digitalitzis"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields,field_description:hr_recruitment_extract.field_hr_applicant__extract_error_message
+msgid "Error message"
+msgstr "Missatge d'error"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields,field_description:hr_recruitment_extract.field_hr_applicant__extract_can_show_resend_button
+msgid "Extract Can Show Resend Button"
+msgstr "Extreure pot mostrar el botó de tornar a enviar"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields,field_description:hr_recruitment_extract.field_hr_applicant__extract_can_show_send_button
+msgid "Extract Can Show Send Button"
+msgstr "Extreure pot mostrar el botó Envia"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields,field_description:hr_recruitment_extract.field_hr_applicant__extract_state
+msgid "Extract State"
+msgstr "Extreu l'estat"
+
+#. module: hr_recruitment_extract
+#. odoo-python
+#: code:addons/hr_recruitment_extract/models/hr_applicant.py:0
+#, python-format
+msgid "Generated Applicant"
+msgstr "Aplicant generat"
+
+#. module: hr_recruitment_extract
+#. odoo-python
+#: code:addons/hr_recruitment_extract/models/hr_applicant.py:0
+#, python-format
+msgid "Generated Applicants"
+msgstr "Aplicadors generats"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields,field_description:hr_recruitment_extract.field_hr_applicant__is_first_stage
+msgid "Is First Stage"
+msgstr "És la primera etapa"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__hr_applicant__extract_state__no_extract_requested
+msgid "No extract requested"
+msgstr "No s'ha sol·licitat cap extract"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__hr_applicant__extract_state__not_enough_credit
+msgid "Not enough credit"
+msgstr "No hi ha prou crèdit"
+
+#. module: hr_recruitment_extract
+#: model:ir.actions.server,name:hr_recruitment_extract.ir_cron_ocr_parse_ir_actions_server
+#: model:ir.cron,cron_name:hr_recruitment_extract.ir_cron_ocr_parse
+msgid "Recruitment OCR: Parse CV"
+msgstr "Reclutament OCR: analitza el CV"
+
+#. module: hr_recruitment_extract
+#: model:ir.actions.server,name:hr_recruitment_extract.ir_cron_update_ocr_status_ir_actions_server
+#: model:ir.cron,cron_name:hr_recruitment_extract.ir_cron_update_ocr_status
+msgid "Recruitment OCR: Update All Status"
+msgstr "Reclutament OCR: Actualitza tot l'estat"
+
+#. module: hr_recruitment_extract
+#: model:ir.actions.server,name:hr_recruitment_extract.ir_cron_ocr_validate_ir_actions_server
+#: model:ir.cron,cron_name:hr_recruitment_extract.ir_cron_ocr_validate
+msgid "Recruitment OCR: Validate CV"
+msgstr "Recuperació OCR: Valida el CV"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields,field_description:hr_recruitment_extract.field_res_config_settings__recruitment_extract_show_ocr_option_selection
+msgid "Recruitment processing option"
+msgstr "Opció de processament de la contractació"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields,field_description:hr_recruitment_extract.field_hr_applicant__extract_remote_id
+msgid "Request ID to IAP-OCR"
+msgstr "Sol·licita l'ID a IAP-OCR"
+
+#. module: hr_recruitment_extract
+#: model:ir.actions.server,name:hr_recruitment_extract.ir_actions_server_digitize_cv
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_extract.hr_recruitment_extract_view_form
+msgid "Send For Digitization"
+msgstr "Envia per digitalitzar"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields,field_description:hr_recruitment_extract.field_res_company__recruitment_extract_show_ocr_option_selection
+msgid "Send mode on applicant attachments"
+msgstr "Mode d'enviament als adjunts dels candidats"
+
+#. module: hr_recruitment_extract
+#. odoo-python
+#: code:addons/hr_recruitment_extract/models/hr_applicant.py:0
+#, python-format
+msgid "Server is currently under maintenance. Please retry later"
+msgstr ""
+"El servidor està actualment en manteniment. Torneu-ho a provar més tard"
+
+#. module: hr_recruitment_extract
+#. odoo-python
+#: code:addons/hr_recruitment_extract/models/hr_applicant.py:0
+#, python-format
+msgid "Server not available. Please retry later"
+msgstr "El servidor no està disponible. Torneu-ho a provar més tard"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields,field_description:hr_recruitment_extract.field_hr_applicant__state_processed
+msgid "State Processed"
+msgstr "Estat processat"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields,field_description:hr_recruitment_extract.field_hr_applicant__extract_status_code
+msgid "Status code"
+msgstr "Codi de l'estat"
+
+#. module: hr_recruitment_extract
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_extract.hr_recruitment_extract_view_form
+msgid ""
+"The data extraction is not finished yet. The extraction usually takes "
+"between 5 and 10 seconds."
+msgstr ""
+"L'extracció de dades encara no ha acabat. L'extracció sol trigar entre 5 i "
+"10 segons."
+
+#. module: hr_recruitment_extract
+#. odoo-python
+#: code:addons/hr_recruitment_extract/models/hr_applicant.py:0
+#, python-format
+msgid "The document could not be found"
+msgstr "No s'ha pogut trobar el document"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__hr_applicant__extract_state__to_validate
+msgid "To validate"
+msgstr "Per validar"
+
+#. module: hr_recruitment_extract
+#. odoo-python
+#: code:addons/hr_recruitment_extract/models/hr_applicant.py:0
+#, python-format
+msgid "Unsupported image format"
+msgstr "Format d'imatge no soportat"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__hr_applicant__extract_state__waiting_extraction
+msgid "Waiting extraction"
+msgstr "A l'espera d'extracció"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__hr_applicant__extract_state__extract_not_ready
+msgid "Waiting extraction, but not ready"
+msgstr "S'està esperant l'extracció, però no està llest"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__hr_applicant__extract_state__waiting_upload
+msgid "Waiting upload"
+msgstr "S'està esperant la pujada"
+
+#. module: hr_recruitment_extract
+#: model:ir.model.fields.selection,name:hr_recruitment_extract.selection__hr_applicant__extract_state__waiting_validation
+msgid "Waiting validation"
+msgstr "Esperant validació"
+
+#. module: hr_recruitment_extract
+#. odoo-python
+#: code:addons/hr_recruitment_extract/models/hr_applicant.py:0
+#, python-format
+msgid "You cannot send a CV for an applicant who's not in first stage!"
+msgstr ""
+"No podeu enviar un currículum per a un sol·licitant que no estigui en la "
+"primera etapa!"
+
+#. module: hr_recruitment_extract
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_extract.hr_recruitment_extract_view_form
+msgid "You don't have enough credit to extract data from your CV."
+msgstr "No teniu prou crèdit per extreure dades del vostre CV."

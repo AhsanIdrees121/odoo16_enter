@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="event_report_template_foldable_badge_inherit_barcode" inherit_id="event.event_report_template_foldable_badge" priority="1">
+        <xpath expr="//div[hasclass('o_event_foldable_badge_barcode_container')]" position="inside">
+            <div class="col-12 text-center">
+                <div class="pt-4 mt-2 pb-2">
+                    <t t-if="attendee">
+                        <div t-field="attendee.barcode" class="barcode" t-options="{'widget': 'barcode', 'width': 310, 'height': 67, 'humanreadable': 1}"/>
+                    </t>
+                    <t t-elif="not attendee">
+                        <div t-out="12345678901234567890" class="barcode" t-options="{'widget': 'barcode', 'width': 310, 'height': 67, 'humanreadable': 1}"/>
+                    </t>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="event_report_template_full_page_ticket_inherit_barcode" inherit_id="event.event_report_template_full_page_ticket">
+        <xpath expr="//div[hasclass('o_event_full_page_ticket_barcode_container')]" position="inside">
+                <img class="barcode"
+                    t-att-src="'/report/barcode/?barcode_type=%s&amp;value=%s&amp;width=%s&amp;height=%s&amp;humanreadable=1&amp;quiet=0' % ('Code128', attendee.barcode if attendee else '12345678901234567890', 205, 67)" alt="Barcode"></img>
+        </xpath>
+    </template>
+</odoo>

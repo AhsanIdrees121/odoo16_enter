@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_picking_edi_form" model="ir.ui.view">
+        <field name="model">stock.picking</field>
+        <field name="name">stock.picking.edi.form</field>
+        <field name="inherit_id" ref="l10n_pe_edi_stock.view_picking_edi_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='l10n_latam_document_number']" position="after">
+                <field name="l10n_pe_edi_ticket_number"/>
+            </xpath>
+            <xpath expr="//page[@name='pe_edi']" position="inside">
+                <group>
+                    <group string="Related Documents" name="pe_edi_group_related_documents" attrs="{'readonly': [('l10n_pe_edi_status', 'not in', (False, 'to_send', 'to_cancel'))]}">
+                        <field
+                            name="l10n_pe_edi_related_document_type"
+                            attrs="{'readonly': [('l10n_pe_edi_status', 'not in', (False, 'to_send', 'to_cancel'))]}"/>
+                        <field
+                            name="l10n_pe_edi_document_number"
+                            attrs="{'readonly': [('l10n_pe_edi_status', 'not in', (False, 'to_send', 'to_cancel'))], 'required': [('l10n_pe_edi_related_document_type', '!=', False)]}"/>
+                    </group>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

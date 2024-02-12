@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pe_partner_operator_form" model="ir.ui.view">
+        <field name="name">l10n_pe_edi.res.partner.operator.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="account.view_partner_property_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='accounting_entries']" position="after">
+                <group string="Peru" name="peru">
+                    <field name="l10n_pe_edi_operator_license"
+                        attrs="{'invisible': [('company_type', '!=', 'person')]}"/>
+                    <field name="l10n_pe_edi_mtc_number"
+                        attrs="{'invisible': [('company_type', '!=', 'company')]}"/>
+                    <field name="l10n_pe_edi_authorization_issuing_entity"
+                        attrs="{'invisible': [('company_type', '!=', 'company')]}"/>
+                    <field name="l10n_pe_edi_authorization_number"
+                        attrs="{'invisible': [('company_type', '!=', 'company')]}"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

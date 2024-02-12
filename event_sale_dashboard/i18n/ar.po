@@ -1,0 +1,100 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* event_sale_dashboard
+# 
+# Translators:
+# Malaz Abuidris <msea@odoo.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~15.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-09 14:10+0000\n"
+"PO-Revision-Date: 2022-09-22 05:46+0000\n"
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2022\n"
+"Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "# Events with Registrations"
+msgstr "عدد الفعاليات التي بها تسجيلات "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "# Invoice addresses"
+msgstr "عدد عناوين الفواتير "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "# Registrations"
+msgstr "عدد التسجيلات "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "# Unique Customers"
+msgstr "عدد العملاء الفريدين "
+
+#. module: event_sale_dashboard
+#: model:ir.model.fields,field_description:event_sale_dashboard.field_event_sale_report__avg_daily_registrations
+msgid "Average Daily Registrations"
+msgstr "متوسط التسجيلات اليومية "
+
+#. module: event_sale_dashboard
+#: model:ir.model.fields,field_description:event_sale_dashboard.field_event_sale_report__avg_sold_daily_registrations
+msgid "Average Daily Registrations Sold"
+msgstr "متوسط التسجيلات اليومية المباعة "
+
+#. module: event_sale_dashboard
+#: model:ir.model.fields,field_description:event_sale_dashboard.field_event_sale_report__avg_amount_sale_order
+msgid "Average Sale Order Amount"
+msgstr "متوسط مبلغ أمر البيع "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "Avg. Amount /Order"
+msgstr "متوسط المبلغ / طلب "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "Avg. Amount /Registration"
+msgstr "متوسط المبلغ / تسجيل "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "Avg. Registrations /Day"
+msgstr "متوسط التسجيلات / يوم "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "Avg. Registrations Sold /Day"
+msgstr "متوسط التسجيلات المباعة / يوم "
+
+#. module: event_sale_dashboard
+#: model:ir.model,name:event_sale_dashboard.model_event_sale_report
+msgid "Event Sales Report"
+msgstr "تقرير مبيعات الفعالية "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "Total Revenues"
+msgstr "إجمالي الإيرادات "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "Unique invoiced partners"
+msgstr "الشركاء المفوترون الفريدون "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "Unique partners who made sale orders"
+msgstr "الشركاء الفريدون الذين قاموا بإنشاء أوامر بيع "
+
+#. module: event_sale_dashboard
+#: model_terms:ir.ui.view,arch_db:event_sale_dashboard.event_sale_report_view_dashboard
+msgid "Untaxed Total Revenues"
+msgstr "إجمالي الإيرادات غير شاملة الضريبة "

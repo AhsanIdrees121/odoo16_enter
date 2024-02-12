@@ -1,0 +1,898 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_mx_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-09 09:25+0000\n"
+"PO-Revision-Date: 2022-11-09 10:26+0100\n"
+"Last-Translator: Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields.selection,name:l10n_mx_reports.selection__res_partner__l10n_mx_type_of_operation__03
+msgid " 03 - Provision of Professional Services"
+msgstr " 03 - Prestación de servicios profesionales"
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields.selection,name:l10n_mx_reports.selection__res_partner__l10n_mx_type_of_operation__06
+msgid " 06 - Renting of buildings"
+msgstr " 06 - Alquiler de edificios"
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields.selection,name:l10n_mx_reports.selection__res_partner__l10n_mx_type_of_operation__85
+msgid " 85 - Others"
+msgstr " 85 - Otros"
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/trial_balance.py:0
+#, python-format
+msgid "Accounts with too much tags"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/trial_balance.py:0
+#, python-format
+msgid "Accounts without tag"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields,help:l10n_mx_reports.field_res_country__demonym
+msgid "Adjective for relationship between a person and a country."
+msgstr "Adjetivo para relación entre una persona y un país."
+
+#. module: l10n_mx_reports
+#: model:ir.model,name:l10n_mx_reports.model_ir_attachment
+msgid "Attachment"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/trial_balance.py:0
+#, python-format
+msgid "COA SAT (XML)"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model:ir.model,name:l10n_mx_reports.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_country
+#: model:ir.model,name:l10n_mx_reports.model_res_country
+msgid "Country"
+msgstr "País"
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/account_diot.py:0
+#: model:account.report,name:l10n_mx_reports.diot_report
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_counter
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_country_code
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_exempt
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_importation_16
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_operation_type_code
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_paid_0
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_paid_16
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_paid_16_non_cred
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_paid_8
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_paid_8_non_cred
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_partner_nationality
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_partner_vat_number
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_refunds
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_third_party_code
+#: model:account.report.expression,report_line_name:l10n_mx_reports.diot_report_line_withheld
+#: model:account.report.line,name:l10n_mx_reports.diot_report_line
+#: model:ir.actions.client,name:l10n_mx_reports.action_account_report_diot
+#, python-format
+msgid "DIOT"
+msgstr "DIOT"
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/account_diot.py:0
+#, python-format
+msgid "DIOT (txt)"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model_terms:ir.ui.view,arch_db:l10n_mx_reports.res_partner_account_diot_form_oml
+msgid "DIOT Information"
+msgstr "Información DIOT"
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/account_diot.py:0
+#, python-format
+msgid "DPIVA"
+msgstr "DPIVA"
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/account_diot.py:0
+#, python-format
+msgid "DPIVA (txt)"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields,field_description:l10n_mx_reports.field_res_country__demonym
+msgid "Demonym"
+msgstr "Demónimo"
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_exempt
+msgid "Exempt"
+msgstr "Exento"
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_importation_16
+msgid "Importation 16%"
+msgstr "Importación 16%"
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields,help:l10n_mx_reports.field_res_partner__l10n_mx_type_of_operation
+#: model:ir.model.fields,help:l10n_mx_reports.field_res_users__l10n_mx_type_of_operation
+msgid ""
+"Indicate the operations type that makes this supplier. Is the second column "
+"in DIOT report"
+msgstr ""
+"Indique el tipo de operaciones que realiza este proveedor. Es la segunda "
+"columna del informe DIOT"
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields,help:l10n_mx_reports.field_res_partner__l10n_mx_type_of_third
+#: model:ir.model.fields,help:l10n_mx_reports.field_res_users__l10n_mx_type_of_third
+msgid ""
+"Indicate the type of third that is the supplier. Is the first column in DIOT "
+"report."
+msgstr ""
+"Indique el tipo de tercero que es el proveedor. Es la primera columna del "
+"informe DIOT."
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields,field_description:l10n_mx_reports.field_res_partner__l10n_mx_nationality
+#: model:ir.model.fields,field_description:l10n_mx_reports.field_res_users__l10n_mx_nationality
+msgid "L10N Mx Nationality"
+msgstr "Nacionalidad"
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields,field_description:l10n_mx_reports.field_res_partner__l10n_mx_type_of_operation
+#: model:ir.model.fields,field_description:l10n_mx_reports.field_res_users__l10n_mx_type_of_operation
+msgid "L10N Mx Type Of Operation"
+msgstr "Tipo de Operación"
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields,field_description:l10n_mx_reports.field_res_partner__l10n_mx_type_of_third
+#: model:ir.model.fields,field_description:l10n_mx_reports.field_res_users__l10n_mx_type_of_third
+msgid "L10N Mx Type Of Third"
+msgstr "Tipo de Tercero"
+
+#. module: l10n_mx_reports
+#: model:ir.actions.server,name:l10n_mx_reports.ir_cron_load_xsd_file_ir_actions_server
+#: model:ir.cron,cron_name:l10n_mx_reports.ir_cron_load_xsd_file
+#: model:ir.cron,name:l10n_mx_reports.ir_cron_load_xsd_file
+msgid "Load XSD File (Mexican reports)"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model:ir.model,name:l10n_mx_reports.model_l10n_mx_report_handler
+msgid "Mexican Account Report Custom Handler"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model:ir.ui.menu,name:l10n_mx_reports.account_reports_legal_mexican_statements_menu
+msgid "Mexico"
+msgstr "México"
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/trial_balance.py:0
+#, python-format
+msgid "Missing Debit or Credit balance account tag in database."
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_partner_nationality
+msgid "Nationality"
+msgstr "Nacionalidad"
+
+#. module: l10n_mx_reports
+#: model:ir.model.fields,help:l10n_mx_reports.field_res_partner__l10n_mx_nationality
+#: model:ir.model.fields,help:l10n_mx_reports.field_res_users__l10n_mx_nationality
+msgid ""
+"Nationality based in the supplier country. Is the seventh column in DIOT "
+"report"
+msgstr ""
+"Nacionalidad basada en el país proveedor. Es la séptima columna del informe "
+"DIOT"
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/trial_balance.py:0
+#, python-format
+msgid "Only Mexican company can generate SAT report."
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_paid_0
+msgid "Paid 0%"
+msgstr "Pagado 0%"
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_paid_16
+msgid "Paid 16%"
+msgstr "Pagado 16%"
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_paid_16_non_cred
+msgid "Paid 16% - Non-Creditable"
+msgstr "Pagado 16% - No acreditable"
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_paid_8
+msgid "Paid 8 %"
+msgstr "Pagado 8 %"
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_paid_8_non_cred
+msgid "Paid 8 % - Non-Creditable"
+msgstr "Pagado 8 % - No acreditable"
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/account_diot.py:0
+#, python-format
+msgid "Partner missing informations"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_refunds
+msgid "Refunds"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/trial_balance.py:0
+#, python-format
+msgid "SAT (XML)"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/account_diot.py:0
+#, python-format
+msgid "See the list of partners"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/trial_balance.py:0
+#, python-format
+msgid "Show list"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/trial_balance.py:0
+#, python-format
+msgid ""
+"Some account prefixes used in your trial balance use both Debit and Credit "
+"balance account tags. This is not allowed."
+msgstr ""
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/trial_balance.py:0
+#, python-format
+msgid ""
+"Some accounts present in your trial balance don't have a Debit or a Credit "
+"balance account tag."
+msgstr ""
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/account_diot.py:0
+#, python-format
+msgid ""
+"The report cannot be generated because some partners are missing a valid RFC "
+"or type of operation"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model:ir.ui.menu,name:l10n_mx_reports.menu_action_account_report_diot
+msgid "Transactions with third parties [ DIOT ]"
+msgstr "Transacciones con terceros [DIOT]"
+
+#. module: l10n_mx_reports
+#: model:ir.model,name:l10n_mx_reports.model_account_trial_balance_report_handler
+msgid "Trial Balance Custom Handler"
+msgstr ""
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_operation_type
+msgid "Type of Operation"
+msgstr "Tipo de Operación"
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_third_party
+msgid "Type of Third"
+msgstr "Tipo de Tercero"
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_partner_vat_number
+msgid "VAT"
+msgstr "RFC"
+
+#. module: l10n_mx_reports
+#: model:account.report.column,name:l10n_mx_reports.diot_report_withheld
+msgid "Withheld"
+msgstr "Retenido"
+
+#. module: l10n_mx_reports
+#: code:addons/l10n_mx_reports/models/account_diot.py:0
+#, python-format
+msgid "You can only export one period at a time with this file format!"
+msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please fill the missing information in the partners and try again."
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Complete la información que falta en los socios y vuelva a intentarlo."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "The following partners do not have a type of operation: \n"
+#~ " - %s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Los siguientes socios no tienen un tipo de operación: \n"
+#~ " - %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "The following partners do not have a valid RFC: \n"
+#~ " - %s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Los siguientes socios no tienen una RFC válida: \n"
+#~ " - %s"
+
+#~ msgid "1 Activos"
+#~ msgstr "1 Activos"
+
+#~ msgid "101 Caja"
+#~ msgstr "101 Caja"
+
+#~ msgid "102 Bancos"
+#~ msgstr "102 Bancos"
+
+#~ msgid "103 Inversiones"
+#~ msgstr "103 Inversiones"
+
+#~ msgid "104 Otros instrumentos financieros"
+#~ msgstr "104 Otros instrumentos financieros"
+
+#~ msgid "105 Clientes"
+#~ msgstr "105 Clientes"
+
+#~ msgid "106 Cuentas y documentos por cobrar a corto plazo"
+#~ msgstr "106 Cuentas y documentos por cobrar a corto plazo"
+
+#~ msgid "107 Deudores diversos"
+#~ msgstr "107 Deudores diversos"
+
+#~ msgid "108 Estimación de cuentas incobrables"
+#~ msgstr "108 Estimación de cuentas incobrables"
+
+#~ msgid "109 Pagos anticipados"
+#~ msgstr "109 Pagos anticipados"
+
+#~ msgid "110 Subsidio al empleo por aplicar"
+#~ msgstr "110 Subsidio al empleo por aplicar"
+
+#~ msgid "111 Crédito al diesel por acreditar"
+#~ msgstr "111 Crédito al diesel por acreditar"
+
+#~ msgid "112 Otros estímulos"
+#~ msgstr "112 Otros estímulos"
+
+#~ msgid "113 Impuestos a favor"
+#~ msgstr "113 Impuestos a favor"
+
+#~ msgid "114 Pagos provisionales"
+#~ msgstr "114 Pagos provisionales"
+
+#~ msgid "115 Inventario"
+#~ msgstr "115 Inventario"
+
+#~ msgid "116 Estimación de inventarios obsoletos y de lento movimiento"
+#~ msgstr "116 Estimación de inventarios obsoletos y de lento movimiento"
+
+#~ msgid "117 Obras en proceso de inmuebles"
+#~ msgstr "117 Obras en proceso de inmuebles"
+
+#~ msgid "118 Impuestos acreditables pagados"
+#~ msgstr "118 Impuestos acreditables pagados"
+
+#~ msgid "119 Impuestos acreditables por pagar"
+#~ msgstr "119 Impuestos acreditables por pagar"
+
+#~ msgid "120 Anticipo a proveedores"
+#~ msgstr "120 Anticipo a proveedores"
+
+#~ msgid "121 Otros activos a corto plazo"
+#~ msgstr "121 Otros activos a corto plazo"
+
+#~ msgid "151 Terrenos"
+#~ msgstr "151 Terrenos"
+
+#~ msgid "152 Edificios"
+#~ msgstr "152 Edificios"
+
+#~ msgid "153 Maquinaria y equipo"
+#~ msgstr "153 Maquinaria y equipo"
+
+#~ msgid ""
+#~ "154 Automóviles, autobuses, camiones de carga, tractocamiones, "
+#~ "montacargas y remolques"
+#~ msgstr ""
+#~ "154 Automóviles, autobuses, camiones de carga, tractocamiones, "
+#~ "montacargas y remolques"
+
+#~ msgid "155 Mobiliario y equipo de oficina"
+#~ msgstr "155 Mobiliario y equipo de oficina"
+
+#~ msgid "156 Equipo de cómputo"
+#~ msgstr "156 Equipo de cómputo"
+
+#~ msgid "157 Equipo de comunicación"
+#~ msgstr "157 Equipo de comunicación"
+
+#~ msgid "158 Activos biológicos, vegetales y semovientes"
+#~ msgstr "158 Activos biológicos, vegetales y semovientes"
+
+#~ msgid "159 Obras en proceso de activos fijos"
+#~ msgstr "159 Obras en proceso de activos fijos"
+
+#~ msgid "160 Otros activos fijos"
+#~ msgstr "160 Otros activos fijos"
+
+#~ msgid "161 Ferrocarriles"
+#~ msgstr "161 Ferrocarriles"
+
+#~ msgid "162 Embarcaciones"
+#~ msgstr "162 Embarcaciones"
+
+#~ msgid "163 Aviones"
+#~ msgstr "163 Aviones"
+
+#~ msgid "164 Troqueles, moldes, matrices y herramental"
+#~ msgstr "164 Troqueles, moldes, matrices y herramental"
+
+#~ msgid "165 Equipo de comunicaciones telefónicas"
+#~ msgstr "165 Equipo de comunicaciones telefónicas"
+
+#~ msgid "166 Equipo de comunicación satelital"
+#~ msgstr "166 Equipo de comunicación satelital"
+
+#~ msgid "167 Equipo de adaptaciones para personas con capacidades diferentes"
+#~ msgstr "167 Equipo de adaptaciones para personas con capacidades diferentes"
+
+#~ msgid ""
+#~ "168 Maquinaria y equipo de generación de energía de fuentes renovables o "
+#~ "de sistemas de cogeneración de electricidad eficiente"
+#~ msgstr ""
+#~ "168 Maquinaria y equipo de generación de energía de fuentes renovables o "
+#~ "de sistemas de cogeneración de electricidad eficiente"
+
+#~ msgid "169 Otra maquinaria y equipo"
+#~ msgstr "169 Otra maquinaria y equipo"
+
+#~ msgid "170 Adaptaciones y mejoras"
+#~ msgstr "170 Adaptaciones y mejoras"
+
+#~ msgid "171 Depreciación acumulada de activos fijos"
+#~ msgstr "171 Depreciación acumulada de activos fijos"
+
+#~ msgid "172 Pérdida por deterioro acumulado de activos fijos"
+#~ msgstr "172 Pérdida por deterioro acumulado de activos fijos"
+
+#~ msgid "173 Gastos diferidos"
+#~ msgstr "173 Gastos diferidos"
+
+#~ msgid "174 Gastos pre operativos"
+#~ msgstr "174 Gastos pre operativos"
+
+#~ msgid "175 Regalías, asistencia técnica y otros gastos diferidos"
+#~ msgstr "175 Regalías, asistencia técnica y otros gastos diferidos"
+
+#~ msgid "176 Activos intangibles"
+#~ msgstr "176 Activos intangibles"
+
+#~ msgid "177 Gastos de organización"
+#~ msgstr "177 Gastos de organización"
+
+#~ msgid "178 Investigación y desarrollo de mercado"
+#~ msgstr "178 Investigación y desarrollo de mercado"
+
+#~ msgid "179 Marcas y patentes"
+#~ msgstr "179 Marcas y patentes"
+
+#~ msgid "180 Crédito mercantil"
+#~ msgstr "180 Crédito mercantil"
+
+#~ msgid "181 Gastos de instalación"
+#~ msgstr "181 Gastos de instalación"
+
+#~ msgid "182 Otros activos diferidos"
+#~ msgstr "182 Otros activos diferidos"
+
+#~ msgid "183 Amortización acumulada de activos diferidos"
+#~ msgstr "183 Amortización acumulada de activos diferidos"
+
+#~ msgid "184 Depósitos en garantía"
+#~ msgstr "184 Depósitos en garantía"
+
+#~ msgid "185 Impuestos diferidos"
+#~ msgstr "185 Impuestos diferidos"
+
+#~ msgid "186 Cuentas y documentos por cobrar a largo plazo"
+#~ msgstr "186 Cuentas y documentos por cobrar a largo plazo"
+
+#~ msgid "187 Participación de los trabajadores en las utilidades diferidas"
+#~ msgstr "187 Participación de los trabajadores en las utilidades diferidas"
+
+#~ msgid "188 Inversiones permanentes en acciones"
+#~ msgstr "188 Inversiones permanentes en acciones"
+
+#~ msgid "189 Estimación por deterioro de inversiones permanentes en acciones"
+#~ msgstr "189 Estimación por deterioro de inversiones permanentes en acciones"
+
+#~ msgid "190 Otros instrumentos financieros"
+#~ msgstr "190 Otros instrumentos financieros"
+
+#~ msgid "191 Otros activos a largo plazo"
+#~ msgstr "191 Otros activos a largo plazo"
+
+#~ msgid "2 Pasivos"
+#~ msgstr "2 Pasivos"
+
+#~ msgid "201 Proveedores"
+#~ msgstr "201 Proveedores"
+
+#~ msgid "202 Cuentas por pagar a corto plazo"
+#~ msgstr "202 Cuentas por pagar a corto plazo"
+
+#~ msgid "203 Cobros anticipados a corto plazo"
+#~ msgstr "203 Cobros anticipados a corto plazo"
+
+#~ msgid "204 Instrumentos financieros a corto plazo"
+#~ msgstr "204 Instrumentos financieros a corto plazo"
+
+#~ msgid "205 Acreedores diversos a corto plazo"
+#~ msgstr "205 Acreedores diversos a corto plazo"
+
+#~ msgid "206 Anticipo de cliente"
+#~ msgstr "206 Anticipo de cliente"
+
+#~ msgid "207 Impuestos trasladados"
+#~ msgstr "207 Impuestos trasladados"
+
+#~ msgid "208 Impuestos trasladados cobrados"
+#~ msgstr "208 Impuestos trasladados cobrados"
+
+#~ msgid "209 Impuestos trasladados no cobrados"
+#~ msgstr "209 Impuestos trasladados no cobrados"
+
+#~ msgid "210 Provisión de sueldos y salarios por pagar"
+#~ msgstr "210 Provisión de sueldos y salarios por pagar"
+
+#~ msgid "211 Provisión de contribuciones de seguridad social por pagar"
+#~ msgstr "211 Provisión de contribuciones de seguridad social por pagar"
+
+#~ msgid "212 Provisión de impuesto estatal sobre nómina por pagar"
+#~ msgstr "212 Provisión de impuesto estatal sobre nómina por pagar"
+
+#~ msgid "213 Impuestos y derechos por pagar"
+#~ msgstr "213 Impuestos y derechos por pagar"
+
+#~ msgid "214 Dividendos por pagar"
+#~ msgstr "214 Dividendos por pagar"
+
+#~ msgid "215 PTU por pagar"
+#~ msgstr "215 PTU por pagar"
+
+#~ msgid "216 Impuestos retenidos"
+#~ msgstr "216 Impuestos retenidos"
+
+#~ msgid "217 Pagos realizados por cuenta de terceros"
+#~ msgstr "217 Pagos realizados por cuenta de terceros"
+
+#~ msgid "218 Otros pasivos a corto plazo"
+#~ msgstr "218 Otros pasivos a corto plazo"
+
+#~ msgid "251 Acreedores diversos a largo plazo"
+#~ msgstr "251 Acreedores diversos a largo plazo"
+
+#~ msgid "252 Cuentas por pagar a largo plazo"
+#~ msgstr "252 Cuentas por pagar a largo plazo"
+
+#~ msgid "253 Cobros anticipados a largo plazo"
+#~ msgstr "253 Cobros anticipados a largo plazo"
+
+#~ msgid "254 Instrumentos financieros a largo plazo"
+#~ msgstr "254 Instrumentos financieros a largo plazo"
+
+#~ msgid "255 Pasivos por beneficios a los empleados a largo plazo"
+#~ msgstr "255 Pasivos por beneficios a los empleados a largo plazo"
+
+#~ msgid "256 Otros pasivos a largo plazo"
+#~ msgstr "256 Otros pasivos a largo plazo"
+
+#~ msgid "257 Participación de los trabajadores en las utilidades diferida"
+#~ msgstr "257 Participación de los trabajadores en las utilidades diferida"
+
+#~ msgid "258 Obligaciones contraídas de fideicomisos"
+#~ msgstr "258 Obligaciones contraídas de fideicomisos"
+
+#~ msgid "259 Impuestos diferidos"
+#~ msgstr "259 Impuestos diferidos"
+
+#~ msgid "260 Pasivos diferidos"
+#~ msgstr "260 Pasivos diferidos"
+
+#~ msgid "3 Capital Contable"
+#~ msgstr "3 Capital Contable"
+
+#~ msgid "301 Capital social"
+#~ msgstr "301 Capital social"
+
+#~ msgid "302 Patrimonio"
+#~ msgstr "302 Patrimonio"
+
+#~ msgid "303 Reserva legal"
+#~ msgstr "303 Reserva legal"
+
+#~ msgid "304 Resultado de ejercicios anteriores"
+#~ msgstr "304 Resultado de ejercicios anteriores"
+
+#~ msgid "305 Resultado del ejercicio"
+#~ msgstr "305 Resultado del ejercicio"
+
+#~ msgid "306 Otras cuentas de capital"
+#~ msgstr "306 Otras cuentas de capital"
+
+#~ msgid "4 Ingresos"
+#~ msgstr "4 Ingresos"
+
+#~ msgid "401 Ingresos"
+#~ msgstr "401 Ingresos"
+
+#~ msgid "402 Devoluciones, descuentos o bonificaciones sobre ingresos"
+#~ msgstr "402 Devoluciones, descuentos o bonificaciones sobre ingresos"
+
+#~ msgid "403 Otros ingresos"
+#~ msgstr "403 Otros ingresos"
+
+#~ msgid "5 Costos"
+#~ msgstr "5 Costos"
+
+#~ msgid "501 Costo de venta y/o servicio"
+#~ msgstr "501 Costo de venta y/o servicio"
+
+#~ msgid "502 Compras"
+#~ msgstr "502 Compras"
+
+#~ msgid "503 Devoluciones, descuentos o bonificaciones sobre compras"
+#~ msgstr "503 Devoluciones, descuentos o bonificaciones sobre compras"
+
+#~ msgid "504 Otras cuentas de costos"
+#~ msgstr "504 Otras cuentas de costos"
+
+#~ msgid "505 Costo de activo fijo"
+#~ msgstr "505 Costo de activo fijo"
+
+#~ msgid "6 Gastos"
+#~ msgstr "6 Gastos"
+
+#~ msgid "601 Gastos generales"
+#~ msgstr "601 Gastos generales"
+
+#~ msgid "602 Gastos de venta"
+#~ msgstr "602 Gastos de venta"
+
+#~ msgid "603 Gastos de administración"
+#~ msgstr "603 Gastos de administración"
+
+#~ msgid "604 Gastos de fabricación"
+#~ msgstr "604 Gastos de fabricación"
+
+#~ msgid "605 Mano de obra directa"
+#~ msgstr "605 Mano de obra directa"
+
+#~ msgid "606 Facilidades administrativas fiscales"
+#~ msgstr "606 Facilidades administrativas fiscales"
+
+#~ msgid "607 Participación de los trabajadores en las utilidades"
+#~ msgstr "607 Participación de los trabajadores en las utilidades"
+
+#~ msgid "608 Participación en resultados de subsidiarias"
+#~ msgstr "608 Participación en resultados de subsidiarias"
+
+#~ msgid "609 Participación en resultados de asociadas"
+#~ msgstr "609 Participación en resultados de asociadas"
+
+#~ msgid "610 Participación de los trabajadores en las utilidades diferida"
+#~ msgstr "610 Participación de los trabajadores en las utilidades diferida"
+
+#~ msgid "611 Impuesto Sobre la renta"
+#~ msgstr "611 Impuesto Sobre la renta"
+
+#~ msgid "612 Gastos no deducibles para CUFIN"
+#~ msgstr "612 Gastos no deducibles para CUFIN"
+
+#~ msgid "613 Depreciación contable"
+#~ msgstr "613 Depreciación contable"
+
+#~ msgid "614 Amortización contable"
+#~ msgstr "614 Amortización contable"
+
+#~ msgid "7 Resultado"
+#~ msgstr "7 Resultado"
+
+#~ msgid "701 Gastos financieros"
+#~ msgstr "701 Gastos financieros"
+
+#~ msgid "702 Productos financieros"
+#~ msgstr "702 Productos financieros"
+
+#~ msgid "703 Otros gastos"
+#~ msgstr "703 Otros gastos"
+
+#~ msgid "704 Otros productos"
+#~ msgstr "704 Otros productos"
+
+#~ msgid "8 Cuentas de Orden"
+#~ msgstr "8 Cuentas de Orden"
+
+#~ msgid "801 UFIN del ejercicio"
+#~ msgstr "801 UFIN del ejercicio"
+
+#~ msgid "802 CUFIN del ejercicio"
+#~ msgstr "802 CUFIN del ejercicio"
+
+#~ msgid "803 CUFIN de ejercicios anteriores"
+#~ msgstr "803 CUFIN de ejercicios anteriores"
+
+#~ msgid "804 CUFINRE del ejercicio"
+#~ msgstr "804 CUFINRE del ejercicio"
+
+#~ msgid "805 CUFINRE de ejercicios anteriores"
+#~ msgstr "805 CUFINRE de ejercicios anteriores"
+
+#~ msgid "806 CUCA del ejercicio"
+#~ msgstr "806 CUCA del ejercicio"
+
+#~ msgid "807 CUCA de ejercicios anteriores"
+#~ msgstr "807 CUCA de ejercicios anteriores"
+
+#~ msgid "808 Ajuste anual por inflación acumulable"
+#~ msgstr "808 Ajuste anual por inflación acumulable"
+
+#~ msgid "809 Ajuste anual por inflación deducible"
+#~ msgstr "809 Ajuste anual por inflación deducible"
+
+#~ msgid "810 Deducción de inversión"
+#~ msgstr "810 Deducción de inversión"
+
+#~ msgid "811 Utilidad o pérdida fiscal en venta y/o baja de activo fijo"
+#~ msgstr "811 Utilidad o pérdida fiscal en venta y/o baja de activo fijo"
+
+#~ msgid "812 Utilidad o pérdida fiscal en venta acciones o partes sociales"
+#~ msgstr "812 Utilidad o pérdida fiscal en venta acciones o partes sociales"
+
+#~ msgid ""
+#~ "813 Pérdidas fiscales pendientes de amortizar actualizadas de ejercicios "
+#~ "anteriores"
+#~ msgstr ""
+#~ "813 Pérdidas fiscales pendientes de amortizar actualizadas de ejercicios "
+#~ "anteriores"
+
+#~ msgid "814 Mercancías recibidas en consignación"
+#~ msgstr "814 Mercancías recibidas en consignación"
+
+#~ msgid ""
+#~ "815 Crédito fiscal de IVA e IEPS por la importación de mercancías para "
+#~ "empresas certificadas"
+#~ msgstr ""
+#~ "815 Crédito fiscal de IVA e IEPS por la importación de mercancías para "
+#~ "empresas certificadas"
+
+#~ msgid ""
+#~ "816 Crédito fiscal de IVA e IEPS por la importación de activos fijos para "
+#~ "empresas certificadas"
+#~ msgstr ""
+#~ "816 Crédito fiscal de IVA e IEPS por la importación de activos fijos para "
+#~ "empresas certificadas"
+
+#~ msgid "899 Otras cuentas de orden"
+#~ msgstr "899 Otras cuentas de orden"
+
+#~ msgid "Account Report (HTML Line)"
+#~ msgstr "Informe de Contabilidad (línea HTML)"
+
+#~ msgid "COA"
+#~ msgstr "Catálogo de Cuentas"
+
+#~ msgid "Credit"
+#~ msgstr "Haber"
+
+#~ msgid "Debit"
+#~ msgstr "Debe"
+
+#~ msgid "Display Name"
+#~ msgstr "Nombre a mostrar"
+
+#~ msgid ""
+#~ "Error while validating the domain of line %s:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Error al validar el dominio de línea %s:\n"
+#~ "%s"
+
+#~ msgid "Export For SAT (XML)"
+#~ msgstr "Exportar para SAT (XML)"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Initial Balance"
+#~ msgstr "Saldo inicial"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última modificación en"
+
+#~ msgid "Mexican Trial Balance Report"
+#~ msgstr "Balance General Mexicano"
+
+#~ msgid "Misconfigured Accounts"
+#~ msgstr "Cuentas mal configuradas"
+
+#~ msgid "Nature"
+#~ msgstr "Naturaleza"
+
+#~ msgid "Print DIOT (TXT)"
+#~ msgstr "Imprimir DIOT (TXT)"
+
+#~ msgid "Print DPIVA (TXT)"
+#~ msgstr "Imprimir DPIVA (TXT)"
+
+#~ msgid "The account %s is incorrectly configured. Only one tag is allowed."
+#~ msgstr ""
+#~ "La cuenta %s está configurada incorrectamente. Solo se permite una "
+#~ "etiqueta."
+
+#~ msgid ""
+#~ "There are more than 80 items in this list, click here to see all of them"
+#~ msgstr ""
+#~ "Hay más de 80 elementos en esta lista, haga clic aquí para verlos todos"
+
+#~ msgid ""
+#~ "This XML could not be generated because some accounts are not correctly "
+#~ "configured and can not be added in this report. This accounts are found "
+#~ "in the section \"Misconfigured Accounts\", please configure your tag and "
+#~ "try generate the report XML again."
+#~ msgstr ""
+#~ "Este XML no se pudo generar porque algunas cuentas no están configuradas "
+#~ "correctamente y no se pueden agregar en este informe. Estas cuentas se "
+#~ "encuentran en la sección “Cuentas mal configuradas”, configure su "
+#~ "etiqueta e intente generar el informe XML nuevamente."
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Total %s"
+#~ msgstr "Total %s"

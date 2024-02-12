@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="vehicle_form_view" model="ir.ui.view">
+        <field name="name">vehicle.form</field>
+        <field name="model">l10n_pe_edi.vehicle</field>
+        <field name="inherit_id" ref="l10n_pe_edi_stock.vehicle_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='operator_id']" position="before">
+                <field name="is_m1l"/>
+                <field name="authorization_issuing_entity"
+                       attrs="{'invisible': [('is_m1l', '=', True)]}"
+                />
+                <field name="authorization_issuing_entity_number"
+                       attrs="{'invisible': ['|', ('is_m1l', '=', True), ('authorization_issuing_entity', '=', False)]}"
+                />
+            </xpath>
+            <xpath expr="//field[@name='operator_id']" position="attributes">
+                <attribute name="attrs">{'invisible': [('is_m1l', '=', True)]}</attribute>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
